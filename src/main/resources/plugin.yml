@@ -1,0 +1,20 @@
+name: GunlukOdul
+version: '${version}'
+main: dev.felinora.gunlukodul.GunlukOdul
+api-version: '1.21'
+author: Felinora
+description: Oyunculara her gün ödül veren, seri (streak) bonuslu günlük ödül sistemi.
+
+commands:
+  gunluk:
+    description: Günlük ödülünü al veya serini gör.
+    usage: /<command> [bilgi|yenile]
+    aliases: [gunlukodul, daily]
+
+permissions:
+  gunlukodul.kullan:
+    description: /gunluk komutunu kullanabilir.
+    default: true
+  gunlukodul.yonetici:
+    description: Ayarları yeniden yükleyebilir (/gunluk yenile).
+    default: op

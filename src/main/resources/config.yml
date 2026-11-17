@@ -1,0 +1,52 @@
+# ==========================================
+#   GunlukOdul - Ayarlar
+#   Renk kodları için & kullanabilirsiniz (&a yeşil, &6 altın vb.)
+# ==========================================
+
+# Gün değişimi hangi saat dilimine göre hesaplansın?
+saat-dilimi: "Europe/Istanbul"
+
+# Oyuncu sunucuya girince, ödülünü almadıysa hatırlatılsın mı?
+giris-hatirlatma: true
+
+# Seri kaç günde bir başa dönsün? (7 = haftalık döngü)
+seri-dongu: 7
+
+# Her seri günü için ödüller.
+# esyalar: MALZEME:ADET şeklinde (malzeme isimleri: https://jd.papermc.io/paper/1.21.4/org/bukkit/Material.html)
+# komutlar: konsoldan çalıştırılır, %oyuncu% oyuncunun adıyla değişir.
+#           Örn. ekonomi eklentiniz varsa: "eco give %oyuncu% 500"
+odul:
+  1:
+    esyalar: ["BREAD:16", "IRON_INGOT:4"]
+    komutlar: []
+  2:
+    esyalar: ["COOKED_BEEF:16", "IRON_INGOT:8"]
+    komutlar: []
+  3:
+    esyalar: ["GOLD_INGOT:8", "EXPERIENCE_BOTTLE:8"]
+    komutlar: []
+  4:
+    esyalar: ["GOLDEN_APPLE:2", "EXPERIENCE_BOTTLE:16"]
+    komutlar: []
+  5:
+    esyalar: ["DIAMOND:2", "GOLDEN_CARROT:16"]
+    komutlar: []
+  6:
+    esyalar: ["DIAMOND:4", "ENDER_PEARL:8"]
+    komutlar: []
+  7:
+    esyalar: ["DIAMOND:8", "ENCHANTED_GOLDEN_APPLE:1", "NETHERITE_SCRAP:1"]
+    komutlar: []
+
+mesajlar:
+  onek: "&8[&6Günlük Ödül&8] &r"
+  alindi: "&a%gun%. gün ödülünü aldın! &7(Seri: &e%seri% gün&7)"
+  zaten-alindi: "&cBugünkü ödülünü zaten aldın. &7Yeni ödül: &e%kalan% &7sonra."
+  seri-bozuldu: "&eBir günü kaçırdığın için serin sıfırlandı. Yeniden başlıyoruz!"
+  envanter-dolu: "&eEnvanterin dolu, bazı eşyalar yere bırakıldı."
+  hatirlatma: "&6Bugünkü ödülün seni bekliyor! &e/gunluk &6yazarak al."
+  bilgi: "&7Serin: &e%seri% gün &8| &7Bugün alındı mı: %durum%"
+  sadece-oyuncu: "&cBu komutu sadece oyuncular kullanabilir."
+  yetki-yok: "&cBunun için yetkin yok."
+  yenilendi: "&aAyarlar yeniden yüklendi."
