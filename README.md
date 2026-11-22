@@ -3,6 +3,8 @@
 Paper/Spigot sunucuları için **seri (streak) bonuslu günlük ödül** eklentisi.
 Oyuncular her gün `/gunluk` yazarak ödül alır; üst üste giriş yaptıkça ödüller büyür.
 
+**⬇️ İndir:** [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/daily-streak-rewards-gunlukodul) (önerilen) • [GitHub Releases](../../releases)
+
 ## Özellikler
 - `/gunluk` ile günlük ödül, her gün yeni ödül
 - **Seri sistemi:** Üst üste alınan günler sayılır, bir gün kaçırılırsa seri sıfırlanır
@@ -21,7 +23,7 @@ Oyuncular her gün `/gunluk` yazarak ödül alır; üst üste giriş yaptıkça 
 | `/gunluk yenile` | `config.yml` dosyasını yeniden yükle | `gunlukodul.yonetici` (OP) |
 
 ## Kurulum
-1. [Releases](../../releases) kısmından `GunlukOdul-x.x.x.jar` dosyasını indirin.
+1. [CurseForge](https://www.curseforge.com/minecraft/bukkit-plugins/daily-streak-rewards-gunlukodul) ya da [Releases](../../releases) kısmından `GunlukOdul-x.x.x.jar` dosyasını indirin.
 2. Sunucunuzun `plugins` klasörüne atın ve sunucuyu yeniden başlatın.
 3. `plugins/GunlukOdul/config.yml` dosyasından ödülleri ve mesajları düzenleyin, ardından `/gunluk yenile` yazın.
 
